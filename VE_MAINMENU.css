@@ -42,9 +42,6 @@ html {
   border-radius: 20px;
   text-align: center;
 }
-.nav21:hover {
-  cursor: pointer;
-}
 
 .nav22 {
   height: 2em;
@@ -53,6 +50,9 @@ html {
   margin-left: 15px;
   border-radius: 20px;
   text-align: center;
+}
+.nav21:hover {
+  cursor: pointer;
 }
 .nav22:hover {
   cursor: pointer;
@@ -78,6 +78,9 @@ html {
 .navImg2 {
   position: relative;
   right: 85px;
+}
+.navImg2:hover {
+  cursor: pointer;
 }
 .navImg21 {
   position: relative;
@@ -121,6 +124,12 @@ h4 {
   top: 30%;
   left: 43%;
 }
+
+.cardm:hover {
+  content: url(./public/card2.png);
+  cursor: pointer;
+}
+
 .cards3 {
   position: absolute;
   top: 34%;
@@ -131,6 +140,18 @@ h4 {
 .cards2:hover,
 .cards3:hover {
   cursor: pointer;
+}
+.cards:hover ~ .cardm {
+  content: url(./public/card2.png);
+}
+.cards1:hover ~ .cardm {
+  content: url(./public/card2.png);
+}
+.cards2:hover ~ .cardm {
+  content: url(./public/card2.png);
+}
+.cards3:hover ~ .cardm {
+  content: url(./public/card2.png);
 }
 
 .cardText {
@@ -156,6 +177,20 @@ h4 {
   position: absolute;
   top: 77%;
   left: 5.5%;
+}
+.cardText:hover,
+.cardText2:hover,
+.cardText3:hover {
+  cursor: pointer;
+}
+.cardText:hover ~ .cardm {
+  content: url(./public/card2.png);
+}
+.cardText2:hover ~ .cardm {
+  content: url(./public/card2.png);
+}
+.cardText3:hover ~ .cardm {
+  content: url(./public/card2.png);
 }
 
 @media all and (max-width: 630px) and (min-width: 530px) {
