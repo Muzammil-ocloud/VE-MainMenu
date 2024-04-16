@@ -1,0 +1,300 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", "SkyFont", "MvBoli", sans-serif;
+  background: url("./public/bgImage.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+}
+.nav1 {
+  width: 50%;
+}
+.nav2 {
+  position: relative;
+  top: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.navImage1 {
+  height: 2rem;
+  width: 8rem;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+.nav21 {
+  height: 2em;
+  width: 8em;
+  background-color: #35515d;
+  border-radius: 20px;
+  text-align: center;
+}
+.nav21:hover {
+  cursor: pointer;
+}
+
+.nav22 {
+  height: 2em;
+  width: 6em;
+  background-color: #35515d;
+  margin-left: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+.nav22:hover {
+  cursor: pointer;
+}
+
+.navText {
+  position: relative;
+  top: 3px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.navText2 {
+  position: relative;
+  right: 80px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.navText2:hover {
+  cursor: pointer;
+}
+.navImg2 {
+  position: relative;
+  right: 85px;
+}
+.navImg21 {
+  position: relative;
+  top: 3px;
+}
+.textDiv {
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h4 {
+  color: white;
+  padding-top: 200px;
+}
+.menuDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.cards {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+.cards1 {
+  position: absolute;
+  top: 32.5%;
+  left: 39.5%;
+}
+.cards2 {
+  position: absolute;
+  top: 30%;
+  left: 43%;
+}
+.cards3 {
+  position: absolute;
+  top: 34%;
+  left: 46%;
+}
+.cards:hover,
+.cards1:hover,
+.cards2:hover,
+.cards3:hover {
+  cursor: pointer;
+}
+
+.cardText {
+  color: white;
+  text-transform: uppercase;
+  font-size: 38px;
+  position: absolute;
+  top: 77%;
+  left: 11%;
+}
+.cardText2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 38px;
+  position: absolute;
+  top: 77%;
+  left: 4%;
+}
+.cardText3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 38px;
+  position: absolute;
+  top: 77%;
+  left: 5.5%;
+}
+
+@media all and (max-width: 630px) and (min-width: 530px) {
+  .navText {
+    font-size: 0.7rem;
+  }
+  .navText2 {
+    font-size: 0.7rem;
+  }
+
+  .nav2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .navImg2 {
+    position: absolute;
+    top: 60px;
+    left: 40%;
+  }
+  .navText2 {
+    left: 18px;
+    bottom: 63px;
+  }
+
+  .navImage1 {
+    position: relative;
+    bottom: 50px;
+  }
+  h4 {
+    padding-top: 80px;
+  }
+  .nav21 {
+    margin-left: 16px;
+  }
+}
+@media all and (max-width: 549px) and (min-width: 490px) {
+  .navText {
+    font-size: 0.7rem;
+  }
+  .navText2 {
+    font-size: 0.7rem;
+  }
+
+  .nav2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .navImg2 {
+    position: absolute;
+    top: 60px;
+    left: 39%;
+  }
+  .navText2 {
+    left: 18px;
+    bottom: 63px;
+  }
+
+  .navImage1 {
+    position: relative;
+    bottom: 50px;
+  }
+  h4 {
+    padding-top: 80px;
+  }
+  .nav21 {
+    margin-left: 16px;
+  }
+}
+@media all and (max-width: 489px) and (min-width: 360px) {
+  .navText {
+    font-size: 0.7rem;
+  }
+  .navText2 {
+    font-size: 0.7rem;
+  }
+
+  .nav2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .navImg2 {
+    position: absolute;
+    top: 60px;
+    left: 36%;
+  }
+  .navText2 {
+    left: 18px;
+    bottom: 63px;
+  }
+
+  .navImage1 {
+    position: relative;
+    bottom: 50px;
+  }
+  h4 {
+    padding-top: 80px;
+  }
+  .navImage1 {
+    transform: scale(0.8);
+    margin-left: 1.2rem;
+  }
+  .nav21 {
+    margin-left: 16px;
+  }
+}
+@media all and (max-width: 359px) {
+  .navText {
+    font-size: 0.7rem;
+  }
+  .navText2 {
+    font-size: 0.7rem;
+  }
+
+  .nav2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .navImg2 {
+    position: absolute;
+    top: 60px;
+    left: 34%;
+  }
+  .navText2 {
+    left: 18px;
+    bottom: 63px;
+  }
+
+  .navImage1 {
+    position: relative;
+    bottom: 50px;
+  }
+  h4 {
+    padding-top: 80px;
+  }
+  .navImage1 {
+    transform: scale(0.8);
+    margin-left: 1.2rem;
+  }
+  .nav21 {
+    margin-left: 16px;
+  }
+}
